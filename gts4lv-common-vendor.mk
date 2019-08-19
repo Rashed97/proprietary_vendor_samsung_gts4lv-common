@@ -1132,8 +1132,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleExTL3210 \
     HotwordEnrollmentXGoogleExTL3210 \
     WfdService \
-    ConnectionSecurityService \
-    SSGTelemetryService \
     TimeService \
     TrustZoneAccessService \
     WfdCommon

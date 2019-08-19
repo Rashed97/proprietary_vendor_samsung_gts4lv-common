@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/samsung/gts4lv-common/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/samsung/gts4lv-common/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+    vendor/samsung/gts4lv-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/samsung/gts4lv-common/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
@@ -44,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
     vendor/samsung/gts4lv-common/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     vendor/samsung/gts4lv-common/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+    vendor/samsung/gts4lv-common/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/samsung/gts4lv-common/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/samsung/gts4lv-common/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
@@ -1125,6 +1127,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/saiv/image_understanding/db/wine_verifier/wine_verifier_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/wine_verifier/wine_verifier_cnn_light.caffemodel
 
 PRODUCT_PACKAGES += \
+    libantradio \
     libskeymaster4device \
     HotwordEnrollmentOKGoogleExTL3210 \
     HotwordEnrollmentXGoogleExTL3210 \

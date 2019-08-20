@@ -137,6 +137,20 @@ persist.sys.bt.driver.version                            u:object_r:vendor_bluet
 # http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1646
 mdc.                u:object_r:csc_prop:s0
 
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1663
+vendor.sys.qseecomd.               u:object_r:vendor_qseecomd_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1707
+ro.netflix.channel               u:object_r:csc_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1701
+ro.boot.dram_info      		u:object_r:boot_dram_info_prop:s0
+ro.boot.force_upload      		u:object_r:boot_force_upload_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1933
+sys.rdxd.      		            u:object_r:rdxd_prop:s0
+
+
 #line 1 "vendor/samsung/system/sepolicy/BSP/qcom/sepolicy/common/property_contexts"
 # http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22964077
 persist.vendor.camera.debug.logfile    u:object_r:sec_camera_prop:s0
@@ -145,7 +159,19 @@ persist.vendor.camera.debug.logfile    u:object_r:sec_camera_prop:s0
 cnss_diag.service                   u:object_r:sec_cnss_diag_prop:s0
 
 # http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23318858
-vendor.sys.qseecomd.               u:object_r:vendor_qseecomd_prop:s0
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1663
+# vendor.sys.qseecomd.               u:object_r:vendor_qseecomd_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1666
+persist.sbl_log_               u:object_r:sbl_log_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1756
+persist.vendor.camera.			u:object_r:sec_camera_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1732
+persist.hvdcp_opti        u:object_r:hvdcp_opti_prop:s0
+persist.pps               u:object_r:hvdcp_opti_prop:s0
+persist.std_pd            u:object_r:hvdcp_opti_prop:s0
 
 #line 1 "device/qcom/sepolicy/vendor/common/property_contexts"
 # Copyright (c) 2015-2016 Dolby Laboratories, Inc. All rights reserved.

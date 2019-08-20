@@ -8,6 +8,10 @@
             <package name="com.sec.downloadablekeystore" seinfo="platform"/>
             <package name="com.sec.android.preloadinstaller" seinfo="platform"/>
         </method>
+		
+		<method name="getDeviceOwnerComponent">
+			<package name="com.google.android.gms" seinfo="gmscore"/>
+		</method>
     </service>
 
     <service name="TimaService">
@@ -2170,6 +2174,7 @@
             <package name="com.samsung.android.spayfw" seinfo="spay"/>
             <package name="com.samsung.android.lxd" seinfo="platform"/>
             <package name="com.sec.indiaidentity" seinfo="platform"/>
+            <package name="com.samsung.android.knox.containercore" seinfo="platform" />
         </method>
     </service>
 

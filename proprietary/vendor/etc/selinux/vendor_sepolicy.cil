@@ -19605,6 +19605,7 @@
 (allow vendor_init_28_0 hvdcp_opti_prop (file (ioctl read getattr lock map open)))
 (allow vendor_init_28_0 exported_system_prop_28_0 (property_service (set)))
 (allow vendor_init_28_0 exported_system_prop_28_0 (file (ioctl read getattr lock map open)))
+(allow vendor_init_28_0 proc_default_smp_affinity (file (write)))
 (allow init_28_0 vm_bms_exec (file (read getattr map execute open)))
 (allow init_28_0 vm_bms (process (transition)))
 (allow vm_bms vm_bms_exec (file (read getattr map execute entrypoint open)))

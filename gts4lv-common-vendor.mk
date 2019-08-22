@@ -52,25 +52,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
     vendor/samsung/gts4lv-common/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/samsung/gts4lv-common/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/PktRspTest:$(TARGET_COPY_OUT_VENDOR)/bin/PktRspTest \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/StoreKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/StoreKeybox \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/athdiag:$(TARGET_COPY_OUT_VENDOR)/bin/athdiag \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/diag_callback_sample:$(TARGET_COPY_OUT_VENDOR)/bin/diag_callback_sample \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/diag_dci_sample:$(TARGET_COPY_OUT_VENDOR)/bin/diag_dci_sample \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/diag_klog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_klog \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/diag_mdlog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_mdlog \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/diag_socket_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_socket_log \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/diag_uart_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_uart_log \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/e_loop:$(TARGET_COPY_OUT_VENDOR)/bin/e_loop \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/factory.ssc:$(TARGET_COPY_OUT_VENDOR)/bin/factory.ssc \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/ftmdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/ftmdaemon \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/hal_proxy_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hal_proxy_daemon \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hdcp1prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp1prov \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hdcp2p2prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp2p2prov \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
@@ -80,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.1-service-qti \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service.wahoo:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service.wahoo \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/vendor.qti.gnss@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.2-service \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
@@ -89,34 +74,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@1.0-service \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.qchdcpkprov_server@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.qchdcpkprov_server@1.0-service \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/icd:$(TARGET_COPY_OUT_VENDOR)/bin/icd \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/icm:$(TARGET_COPY_OUT_VENDOR)/bin/icm \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/myftm:$(TARGET_COPY_OUT_VENDOR)/bin/myftm \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/pktlogconf:$(TARGET_COPY_OUT_VENDOR)/bin/pktlogconf \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/pm_proxy_helper:$(TARGET_COPY_OUT_VENDOR)/bin/pm_proxy_helper \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/qdcmss:$(TARGET_COPY_OUT_VENDOR)/bin/qdcmss \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/qseecom_sample_client:$(TARGET_COPY_OUT_VENDOR)/bin/qseecom_sample_client \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/secure_storage_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/secure_storage_daemon \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/secure_ui_sample_client:$(TARGET_COPY_OUT_VENDOR)/bin/secure_ui_sample_client \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/seemp_healthd:$(TARGET_COPY_OUT_VENDOR)/bin/seemp_healthd \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/sigma_dut:$(TARGET_COPY_OUT_VENDOR)/bin/sigma_dut \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/spectraltool:$(TARGET_COPY_OUT_VENDOR)/bin/spectraltool \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/sscrpcd:$(TARGET_COPY_OUT_VENDOR)/bin/sscrpcd \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/ssgqmigd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgqmigd \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/ssgtzd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgtzd \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/ssr_diag:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_diag \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/subsystem_ramdump:$(TARGET_COPY_OUT_VENDOR)/bin/subsystem_ramdump \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/test_diag:$(TARGET_COPY_OUT_VENDOR)/bin/test_diag \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
@@ -125,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/vendor.samsung.security.sem@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.security.sem@1.0-service \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/vendor.samsung.security.skpm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.security.skpm@1.0-service \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/vendor.samsung.security.wvkprov_server@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.security.wvkprov_server@1.0-service \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/vendor_cmd_tool:$(TARGET_COPY_OUT_VENDOR)/bin/vendor_cmd_tool \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/vppservice:$(TARGET_COPY_OUT_VENDOR)/bin/vppservice \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/wvkprov:$(TARGET_COPY_OUT_VENDOR)/bin/wvkprov \
@@ -374,7 +348,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/libadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
@@ -383,7 +356,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libaudio_soundtrigger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_soundtrigger.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
@@ -406,7 +378,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiagjni.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayqos.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
@@ -425,7 +396,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-osal.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgdtap.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofence.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnss.so \
@@ -461,7 +431,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/liblow_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblow_light_hdr.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_client.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/libmdf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdf.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libmfhdr_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfhdr_interface.so \
@@ -473,8 +442,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemaids_vendor.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libpa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpa.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libpadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpadm.so \
@@ -485,7 +452,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
@@ -539,7 +505,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsi.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libsmart_cropping.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmart_cropping.camera.samsung.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libsnaace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnaace.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libsnamrnb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnamrnb.so \
@@ -576,7 +541,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libsomxwmv7d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxwmv7d.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libsomxwmv8d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxwmv8d.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspcom.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/libspiris.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspiris.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
@@ -585,7 +549,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ac4dec.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_qtiflacdec.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstreamparser.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswregistrationalgo.so \
@@ -606,7 +569,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libvdis_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis_core.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libvdis_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis_interface.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppclient.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
@@ -617,7 +579,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libwfdmmservice_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice_proprietary.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/libwpa_drv_oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_drv_oem.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxcv.camera.samsung.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
@@ -668,11 +629,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.scve.objecttracker@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.scve.panorama@1.0.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.soter@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@1.0-impl.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/vendor.samsung.camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.2-impl.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/vendor.samsung.camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.3-impl.so \
@@ -763,12 +721,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libarac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarac.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
@@ -801,7 +756,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-ipc.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-osal.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnss.so \
@@ -840,7 +794,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/liblow_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblow_light_hdr.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libmdf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdf.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libmeters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters.so \
@@ -853,9 +806,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulawdec.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnanopb.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemaids_vendor.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libpa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpa.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libpadm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpadm.so \
@@ -866,7 +817,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi.so \
@@ -919,7 +869,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsi.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libsmart_cropping.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmart_cropping.camera.samsung.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libsnaace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnaace.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libsnamrnb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnamrnb.so \
@@ -956,7 +905,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libsomxwmv7d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxwmv7d.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libsomxwmv8d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxwmv8d.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspcom.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libspiris.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspiris.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
@@ -973,7 +921,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libucsengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucsengine.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniapi.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
@@ -983,7 +930,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpptestutils.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libwpa_drv_oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_drv_oem.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxcv.camera.samsung.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
@@ -1012,17 +958,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.scve.panorama@1.0.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.soter@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.1.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@1.0-impl.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.2-impl.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.3-impl.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.4-impl.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.external.secure_storage@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.external.secure_storage@2.0.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.frameworks.ucm.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.ucm.wifi@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@3.2.so \
@@ -1033,17 +975,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.miscpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.miscpower@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.qchdcpkprov_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.qchdcpkprov_server@1.0.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@1.0.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@1.0.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.security.drk@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.security.drk@1.0_vendor.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.security.proca@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.security.proca@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.security.sem@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.security.sem@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.security.skpm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.security.skpm@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.security.vaultkeeper_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.security.vaultkeeper_server@1.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.security.wvkprov_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.security.wvkprov_server@1.0.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vndk/libcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libcrypto.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vndk/libssl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libssl.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.info:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.info \
     vendor/samsung/gts4lv-common/proprietary/vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.prototxt \
     vendor/samsung/gts4lv-common/proprietary/vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn_light.caffemodel \
